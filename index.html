@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Section Practice</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f7f9fc;
+    }
+    section {
+      padding: 40px 20px;
+      margin: 20px auto;
+      background: white;
+      max-width: 1000px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+    .features, .services, .testimonials, .team, .portfolio, .logos, .pricing, .blog, .media, .products {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .features div, .services div, .portfolio div, .pricing div, .products div, .team div, .blog article {
+      flex: 1;
+      background: #ecf0f1;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    .services div {
+      font-size: 24px;
+    }
+    form input, form textarea {
+      display: block;
+      margin-bottom: 10px;
+      padding: 8px;
+      width: 100%;
+    }
+    details {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+<section>
+  <h2>1. Homepage Introduction</h2>
+  <p>Welcome to our amazing website! We provide awesome solutions to modern problems.</p>
+</section>
+
+<section>
+  <h2>2. Features</h2>
+  <div class="features">
+    <div>Fast Performance</div>
+    <div>Secure Platform</div>
+    <div>Easy Integration</div>
+  </div>
+</section>
+
+<section>
+  <h2>3. Services</h2>
+  <div class="services">
+    <div>🛠 Development</div>
+    <div>🎨 Design</div>
+    <div>📈 Marketing</div>
+  </div>
+</section>
+
+<section>
+  <h2>4. Testimonials</h2>
+  <div class="testimonials">
+    <blockquote>"This service changed my life!" - Jane</blockquote>
+    <blockquote>"Excellent support and easy to use." - John</blockquote>
+  </div>
+</section>
+
+<section>
+  <h2>5. Meet Our Team</h2>
+  <div class="team">
+    <div><strong>Alice</strong><br>Developer</div>
+    <div><strong>Bob</strong><br>Designer</div>
+    <div><strong>Charlie</strong><br>Manager</div>
+  </div>
+</section>
+
+<section>
+  <h2>6. Contact Form with Instructions</h2>
+  <p>Please fill out the form below and we’ll get back to you:</p>
+  <form>
+    <input type="text" placeholder="Ragini Singh">
+    <input type="email" placeholder="raginisingh.sejal@gmail.com">
+    <textarea placeholder="Message"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<section>
+  <h2>7. Two-Column Layout (Nested Sections)</h2>
+  <div style="display: flex; gap: 20px;">
+    <section style="flex: 1;">Left Column Content</section>
+    <section style="flex: 1;">Right Column Content</section>
+  </div>
+</section>
+
+<section>
+  <h2>8. Section with Heading and Paragraph</h2>
+  <p>This is a standard section with a heading and paragraph to show content grouping.</p>
+</section>
+
+<section>
+  <h2>9. Portfolio</h2>
+  <div class="portfolio">
+    <div>Project 1</div>
+    <div>Project 2</div>
+    <div>Project 3</div>
+  </div>
+</section>
+
+<section>
+  <h2>10. FAQ</h2>
+  <details><summary>What is your return policy?</summary><p>We offer 30-day returns.</p></details>
+  <details><summary>Do you offer support?</summary><p>Yes, 24/7 support is available.</p></details>
+</section>
+
+<section>
+  <h2>11. Blog Posts</h2>
+  <div class="blog">
+    <article><strong>Post 1:</strong> How we built our startup.</article>
+    <article><strong>Post 2:</strong> Tips for better design.</article>
+  </div>
+</section>
+
+<section>
+  <h2>12. Media</h2>
+  <div class="media">
+    <video width="300" controls>
+      <source src="sample.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <audio controls>
+      <source src="sample.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</section>
+
+<section>
+  <h2>13. Client Logos</h2>
+  <div class="logos">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/014/856/628/small/customer-experience-icon-client-satisfaction-symbol-customer-relationship-management-concept-for-graphic-design-logo-website-social-media-mobile-app-ui-illustration-vector.jpg" alt="Logo 1">
+    <img src="https://img.freepik.com/premium-vector/people-connect-logo-design-template-connection-logo-business_614185-3800.jpg?uid=R181221433&ga=GA1.1.19838858.1735673676&semt=ais_hybrid&w=740" alt="Logo 2">
+    <img src="https://i.pinimg.com/564x/2b/08/7d/2b087daf7abfe0fa9ce975e1d0f696ce.jpg" alt="Logo 3">
+  </div>
+</section>
+
+<section>
+  <h2>14. Pricing Plans</h2>
+  <div class="pricing">
+    <div>Basic - $10</div>
+    <div>Pro - $30</div>
+    <div>Enterprise - $100</div>
+  </div>
+</section>
+
+<section>
+  <h2>15. About Us</h2>
+  <p><strong>Mission:</strong> Empower users through tech.<br>
+  <strong>Vision:</strong> A smarter digital future.</p>
+</section>
+
+<section>
+  <h2>16. Our Mobile App</h2>
+  <p>Download our app to get the full experience on mobile!</p>
+</section>
+
+<section>
+  <h2>17. Call to Action</h2>
+  <p>Ready to get started? <a href="#">Sign up now!</a></p>
+</section>
+
+<section>
+  <h2>18. Contact Form</h2>
+  <form>
+    <input type="text" placeholder="Name">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<section>
+  <h2>19. Product Showcase</h2>
+  <div class="products">
+    <div>Product A</div>
+    <div>Product B</div>
+    <div>Product C</div>
+  </div>
+</section>
+
+<section>
+  <h2>20. Scrollable Page Blocks</h2>
+  <p>This section represents a scrollable block. Add more sections like this for scrolling websites.</p>
+</section>
+
+</body>
+</html>
